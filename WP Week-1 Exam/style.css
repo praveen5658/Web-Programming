@@ -1,0 +1,51 @@
+.main-border{
+	border : 1px solid green;
+}
+img{
+	max-width: 100%;
+	width : 300px;
+	height : 220px;
+}
+.profile-pic{
+	border-radius: 50%;
+}
+.list{
+	display: inline-block;
+}
+.beach{
+	text-align: center;
+}
+.my-journey{
+	text-align: center;
+	vertical-align: center;
+	font-size: 2em;
+	margin-top:3%;
+	margin-bottom: -3%;
+}
+.alignment{
+	line-height: 150%;
+	height: 272px;
+	padding : 1%;
+	border : 1px solid green;
+}
+.card{
+	width : 250px;
+	height : 200px;
+
+}
+.card-image{
+	width : 250px;
+	height : 80px;
+}
+.card-image-text{
+	position: absolute;
+	right: 55px;
+	bottom: 120px;
+	font-size: 15px;
+	color: white;
+}
+.data-list{
+	display: inline-block;
+	line-height: 70%;
+	margin-top: 15%;
+}
