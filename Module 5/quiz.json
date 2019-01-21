@@ -1,0 +1,116 @@
+{
+
+	"number-of-questions": 10,
+	"questions" : [
+		{
+			"question-number": 1,
+			"question": "All elements are identified by their __________ and are marked up using either start tags and end tags or self-closing tags",
+			"option1": "tag name",
+			"option2": "class name",
+			"correct-answer": "option1",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The tagName property returns the tag name of the element. In HTML, the returned value of the tagName property is always in UPPERCASE.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 2,
+			"question": "The __________ element represents a span of text that is isolated from its surroundings for the purposes of bidirectional text formatting",
+			"option1": "bdo",
+			"option2": "bdi",
+			"correct-answer": "option2",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!bdi stands for Bi-directional Isolation. This element is useful when embedding user-generated content with an unknown directionality",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 3,
+			"question": "A ____________ element must have a start tag but must not have an end tag",
+			"option1": "code",
+			"option2": "command",
+			"correct-answer": "option2",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The command tag is new in HTML5 and specifies a normal command with an action.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 4,
+			"question": "Which type attribute of input element sets the element’s value to a string representing a number?",
+			"option1": "range",
+			"option2": "email",
+			"correct-answer": "option1",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The input element with a type attribute whose value is “range” represents an imprecise control for setting the element’s value to a string representing a number",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 5,
+			"question": "The World Wide Web’s markup language has always been HTML.",
+			"option1": "True",
+			"option2": "False",
+			"correct-answer": "option1",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The World Wide Web’s markup language has always been HTML. HTML was primarily designed as a language for semantically describing scientific documents, although its general design and adaptations over the years have enabled it to be used to describe a number of other types of documents.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 6,
+			"question": "Which of the following type attributes of input element defines control for entering a telephone number?",
+			"option1": "tel",
+			"option2": "mob",
+			"correct-answer": "option1",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The input element with a type attribute whose value is “tel” represents a one-line plain-text edit control for entering a telephone number.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 7,
+			"question": "Which element represents a control for generating a public-private key pair?",
+			"option1": "key",
+			"option2": "keygen",
+			"correct-answer": "option2",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The keygen element represents a control for generating a public-private key pair and for submitting the public key from that key pair.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 8,
+			"question": "Which element represents marked or highlighted text for reference purposes?",
+			"option1": "strong",
+			"option2": "mark",
+			"correct-answer": "option2",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The mark element represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 9,
+			"question": "Which element(s) represents a section of a document that links to other documents?",
+			"option1": "nav",
+			"option2": "anchor tag",
+			"correct-answer": "option1",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		},
+		{
+			"question-number": 10,
+			"question": "Which of the following element marks the ruby text component of a ruby annotation?",
+			"option1": "ruby",
+			"option2": "rt",
+			"correct-answer": "option2",
+			"hint-1": "This is Hint1",
+			"hint-2": "This is Hint2",
+			"correct-answer-display": "Correct Answer!The rt element is the markup for ruby text.",
+			"wrong-answer-display": "Wrong Answer! You have choosen the Wrong Answer."
+		}
+	]
+}
