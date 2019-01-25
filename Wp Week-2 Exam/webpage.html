@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="webpage.css" />
+    <script src="webpage.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "row" style = "background-color:#3dbae0;"> 
+            <div class = "col-md-4">
+                
+            </div>
+            <div class = "col-md-4 main_heading">
+                My Web Page
+            </div>
+            <div class = "col-md-4">
+                
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-7 border" style="padding:10%; background-color:#26e859;">
+                <form id = "formId">
+                    User Name: <input id = "userName" type = "text" placeholder="Your Name"><br><br>
+                    <p id = "userNameErrorMessage"></p>
+                    Password : <input id = "userPassword" type = "password" placeholder="Your Password"><br><br>
+                    <p id = "passwordErrorMessage"></p>
+                    Comments : <textarea id = "textArea" rows = "10" cols = "20"></textarea><br><br>
+                    <button type = "button" onclick="validateForm()">Post</button>
+                </form>
+            </div>
+            <div class = "col-md-5 border" style = "background-color: #b9c2cc">
+                <div style = "padding:5%;">
+                <h3>COMMENTS:</h3>
+                <p id = "comment"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

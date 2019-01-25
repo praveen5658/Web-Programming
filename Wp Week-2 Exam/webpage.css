@@ -1,0 +1,20 @@
+.container{
+    border: 1px solid blue;
+}
+.border{
+    border : 1px solid blue;
+}
+.main_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.commentstyle{
+    font-size : 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.commentbyuserstyle{
+    font-size: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
