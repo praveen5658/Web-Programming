@@ -1,0 +1,27 @@
+<div *ngFor= "let prod of product, index as index">
+  <div class = "row">
+    <div class = "col-md-3 col-xs-3 img_style">
+      <img src = '../../../../../assets/{{prod.image}}' alt = "no Image found">
+    </div>
+    <div class = "col-md-9 col-xs-9" style = "padding:2%;">
+      <p>Model: {{prod.title}}</p>
+      <p>Quantity: {{prod.quantity}}</p>
+      <p>Description: {{prod.description}}</p>
+      <button  style = "float : left;" (click) = "deleteData(index)">Delete</button>
+      <button  style = "float : center;" (click) = "edit()">Edit</button>
+      <div *ngIf = "show">
+        <form #myForm = "ngForm">
+          <br>
+          <label>Title:</label>
+          <input type = "text" placeholder="Enter Title" [(ngModel)] = "tit" [ngModelOptions]="{standalone: true}"><br>
+          <label>Quantity:</label>
+          <input type = "text" placeholder="Enter Quantity" [(ngModel)] = "quan" [ngModelOptions]="{standalone: true}"><br>
+          <label>Description:</label>
+          <input type = "text" placeholder="Enter Description" [(ngModel)] = "desc" [ngModelOptions]="{standalone: true}"><br>
+          <button type = "button" (click) = "submitbutton(index, myForm)">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
